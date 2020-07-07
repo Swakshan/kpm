@@ -1,0 +1,147 @@
+{
+	"Count" : [
+		{
+			"total" : 87,
+			"hos" : 52,
+			"rec" : 34,
+			"dea" : 1,
+			"date" : "04/07/2020"
+		},
+		{
+			"total" : 85,
+			"hos" : 50,
+			"rec" : 34,
+			"dea" : 1,
+			"date" : "05/07/2020"
+		},
+		{
+			"total" : 87,
+			"hos" : 52,
+			"rec" : 34,
+			"dea" : 1,
+			"date" : "06/07/2020"
+		},
+		{
+			"total" : 89,
+			"hos" : 44,
+			"rec" : 44,
+			"dea" : 1,
+			"date" : "07/07/2020 12:05AM"
+		}
+	],
+	"Area" : [
+		[
+			{
+				"name" : "Tamirabharani",
+				"num" : 2
+			},
+			{
+				"name" : "Kili",
+				"num" : 1
+			},
+			{
+				"name" : "Bhavini",
+				"num" : 2
+			},
+			{
+				"name" : "Efficiency, Bhavini",
+				"num" : 2
+			}
+		],
+		[
+			{
+				"name" : "Mayil South",
+				"num" : 1
+			},
+			{
+				"name" : "Sadras East",
+				"num" : 3
+			},
+			{
+				"name" : "CISF",
+				"num" : 1
+			},
+			{
+				"name" : "Junior Hostel",
+				"num" : 2
+			},
+			{
+				"name" : "South Ring Road",
+				"num" : 1
+			},
+			{
+				"name" : "Central Avenue",
+				"num" : 2
+			},
+			{
+				"name" : "2nd Street",
+				"num" : 1
+			},
+			{
+				"name" : "4th Street",
+				"num" : 2
+			},
+			{
+				"name" : "7th Street",
+				"num" : 1
+			},
+			{
+				"name" : "8th Street",
+				"num" : 2
+			},
+			{
+				"name" : "9th Street",
+				"num" : 2
+			},
+			{
+				"name" : "24th Street",
+				"num" : 4
+			},
+			{
+				"name" : "4th Ave",
+				"num" : 1
+			},
+			{
+				"name" : "5th Ave",
+				"num" : 3
+			},
+			{
+				"name" : "8th Ave",
+				"num" : 1
+			},
+			{
+				"name" : "11th Ave",
+				"num" : 1
+			},
+			{
+				"name" : "12th Ave",
+				"num" : 1
+			},
+			{
+				"name" : "15th Ave",
+				"num" : 1
+			},
+			{
+				"name" : "18th Ave",
+				"num" : 4
+			},
+			{
+				"name" : "52nd Ave",
+				"num" : 1
+			},
+			{
+				"name" : "Mayil South",
+				"num" : 1
+			}
+		],
+		{
+			"date" : "07/07/2020 12:05AM"
+		}
+	],
+	"TodayArea" : [
+		{
+			"name" : "24th Street",
+			"num" : 2
+		}
+	]
+}
