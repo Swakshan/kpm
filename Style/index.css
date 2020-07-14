@@ -1,0 +1,166 @@
+body{
+    background-image: linear-gradient(to bottom ,#021b79,#0575e6);
+    font-family: 'Josefin Sans', sans-serif;
+overflow-x: hidden
+}
+
+
+
+.Top {
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #a10000,#b20000,#c30000);
+    color: white;
+      font-family: 'Josefin Sans', sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size: 40px;
+    font-weight: bolder;
+    box-shadow: 0px 5px black;
+}
+
+.updateData{
+    align-content: center;
+    padding: 30px;
+    justify-content: center;
+}
+.Box{
+    box-shadow: 5px 5px #000040;
+    background-color: #cecfff;
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 50%;
+    width:80%;
+    color: white;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+.titletext{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.numtext{
+    font-size: 70px;
+    font-weight: bolder;
+    transform: translateY(-030%);
+}
+.totaltext{
+    font-size: 30px;
+    font-weight: 500;
+}
+.totalnum{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.TotalCases{
+    box-shadow: 3px 3px #888888;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    background-image: linear-gradient(to right,#e30b0b,#ff2929);
+    padding: 30px;
+    margin: 40px;
+    float: left;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+.MainBox {
+    right: -5%;
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    height: 350px;
+    width:80%;
+    color: white;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.Box2{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SmallBox{
+    box-shadow: 5px 5px black;
+    width: 180px;
+    height: 120px;
+    background-image: linear-gradient(to right,#1a8704,#24b314);
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    align-content: center;
+    float: left;
+}
+.SmallBox1{
+    box-shadow: 5px 5px black;
+    width: 180px;
+    height: 120px;
+    background-image: linear-gradient(to right,#F00000,#DC281E);
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    align-content: center;
+    float: left;
+}
+.SmallBox2{
+    box-shadow: 5px 5px black;
+    width: 180px;
+    height: 120px;
+    background-image: linear-gradient(to right,#fc4a1a,#f7b733);
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    align-content: center;
+    float: left;
+}
+.SmallBox3{
+    box-shadow: 5px 5px black;
+    width: 180px;
+    height: 120px;
+    background-image: linear-gradient(to right,#f7b733,#ee0979);
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    align-content: center;
+    float: left;
+}
+.up
+{
+    font-size: 20px;
+    font-weight: 500;font-family: 'Oswald', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    align-content: center;
+    color: black;
+}
+
+
+=

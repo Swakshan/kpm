@@ -1,0 +1,80 @@
+.mpopup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.mpopup-content {
+    position: relative;
+    background-color: #fefefe;
+    align-items: center;
+    margin: auto;
+    top:-10%;
+    padding: 0;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.mpopup-head {
+    padding: 2px 10px;
+    background-color: #ff0000;
+    color: white;
+}
+.mpopup-main {padding: 2px 16px;}
+.mpopup-foot {
+    padding: 2px 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+/* add animation effects */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:-80px; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:-80px; opacity:1}
+}
+
+/* close button style */
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close2:hover, .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#nameid ,#emailid
+{
+    width: 480px;
+}
+
+#sendBtn
+{
+    width: 100px;
+    transform: translateY(5px);
+}
+
+#sts {
+    margin-left: 50%;
+
+}
