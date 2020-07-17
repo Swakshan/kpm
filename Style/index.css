@@ -46,6 +46,11 @@ overflow-x: hidden
     font-weight: bolder;
     transform: translateY(-030%);
 }
+#timz
+{
+    transform: translateY(0px);
+    font-size: 15px;
+}
 
 .MainBox {
     right: -5%;
