@@ -36,12 +36,17 @@ overflow-x: hidden
 }
 
 
-.titletext{
+.titletext, .titletext3{
     margin-top: 10px;
     font-size: 20px;
     font-weight: 500;
 }
 .numtext{
+    font-size: 70px;
+    font-weight: bolder;
+    transform: translateY(-030%);
+}
+.numtext2{
     font-size: 70px;
     font-weight: bolder;
     transform: translateY(-030%);

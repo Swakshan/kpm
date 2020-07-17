@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     .img-cont {
-        margin-top: 20px;
+        margin-top: 60px;
     }
     .image-covid {
         border-radius: 30px;
@@ -17,14 +17,44 @@
         font-size: 20px;
         height: 70px;
     }
+    .container
+    {
+        margin-top: -50px;
+    }
     .MainBox {
-        padding-left: 10vw;;
+        padding-left: 0vw;;
     }
     #timz
     {
         transform: translateY(0px);
         font-size: 15px;
     }
+    .SmallBox
+    {
+        width: 120px;
+        height: 100px;
+    }
+    .SmallBox1
+    {
+        width: 120px;
+        height: 100px;
+    }
+    .SmallBox2
+    {
+        width: 120px;
+        height: 100px;
+    }
+    .numtext
+    {
+        font-size: 45px;
+    }
+    .titletext3
+    {
+        font-size:18px;
+        line-height: 100%;
+        
+    }
+    
 }
 @media screen and (max-width: 450px) {
     .image-covid {
