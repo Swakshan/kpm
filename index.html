@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -22,22 +21,21 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <!--    map things-->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
         crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-        crossorigin=""></script>
+        crossorigin=""></script> -->
     <!--    Counter-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <!--    Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    
+
     <style>
-        img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
-        {
+        img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
             display: none;
         }
     </style>
@@ -49,61 +47,65 @@
     </div>
     <div class="container">
         <div class="column md-2"></div>
-        <div class="MainBox column md-8">    
-                <div class="Box2">
-                    <div class="SmallBox1">
-                        <p class="titletext">Total Cases</p>
+        <div class="MainBox column md-8">
+            <div class="Box2">
+                <div class="SmallBox1">
+                    <p class="titletext">Total Cases</p>
                     <p class="numtext"><span id="tot">99</span></p>
-                    </div>
-                    <div class="SmallBox">
-                        <p class="titletext">Active Cases</p>
-                        <p class="numtext"><span id="hos">99</span></p>
-                    </div>
                 </div>
-                <div class="Box2">
-                    <div class="SmallBox">
-                        <p class="titletext">Total Recovered</p>
-                        <p class="numtext"><span id="rec">99</span></p>
-                    </div>
-                </div>
-                <div class="Box2">
-                    <div class="SmallBox">
-                        <p class="titletext">Total Deaths</p>
-                        <p class="numtext"><span id="dea">99</span></p>
-                    </div>
-                </div>
-                <br />
-                <div class="Box2">
-                    <div class="SmallBox2">
-                        <p class="titletext">Confirmed Today</p>
-                        <p class="numtext"><span id="ttot">99</span></p>
-                    </div>
-                </div>
-                <div class="Box2">
-                    <div class="SmallBox2">
-                        <p class="titletext">Recovered Today</p>
-                        <p class="numtext"><span id="trec">99</span></p>
-                    </div>
-                </div>
-                <div class="Box2">
-                    <div class="SmallBox2">
-                        <p class="titletext">Death Today</p>
-                        <p class="numtext"><span id="tdea">99</span></p>
-                    </div>
-                </div>
-                <div class="Box2">
-                    <div class="SmallBox3">
-                        <p class="titletext">Last Update : </p> 
-                        <p class="numtext" id="timz"></p> 
-                    </div>
+                <div class="SmallBox">
+                    <p class="titletext">Active Cases</p>
+                    <p class="numtext"><span id="hos">99</span></p>
                 </div>
             </div>
-            <div class="column md-2"></div>
+            <div class="Box2">
+                <div class="SmallBox">
+                    <p class="titletext">Total Recovered</p>
+                    <p class="numtext"><span id="rec">99</span></p>
+                </div>
+            </div>
+            <div class="Box2">
+                <div class="SmallBox">
+                    <p class="titletext">Total Deaths</p>
+                    <p class="numtext"><span id="dea">99</span></p>
+                </div>
+            </div>
+            <br />
+            <div class="Box2">
+                <div class="SmallBox">
+                    <p class="titletext">Confirmed Today</p>
+                    <p class="numtext"><span id="ttot">99</span></p>
+                </div>
+            </div>
+            <div class="Box2">
+                <div class="SmallBox">
+                    <p class="titletext">Recovered Today</p>
+                    <p class="numtext"><span id="trec">99</span></p>
+                </div>
+            </div>
+            <div class="Box2">
+                <div class="SmallBox">
+                    <p class="titletext">Death Today</p>
+                    <p class="numtext"><span id="tdea">99</span></p>
+                </div>
+            </div>
+            <div class="Box2">
+                <div class="SmallBox1">
+                    <p class="titletext">Last Update : </p>
+                    <p class="numtext" id="timz"></p>
+                </div>
+            </div>
         </div>
-        <br />
-        <br />
-       
-<!--
+        <div class="column md-2"></div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="img-cont">
+        <img class="image-covid" src="./iconz/covid.png" />
+    </div>
+    <!--
     <div class="upd">
         <span id="pls" style="color: white; font-weight: 400"></span><br>
         <button id = "TBtn">Total</button>
@@ -112,12 +114,12 @@
     </div>
 -->
 
-    
-      <div id="mapid"></div>
 
-    
-    
-<!--
+    <!-- <div id="mapid"></div> -->
+
+
+
+    <!--
     <div class="locBtn">
         <button id = "kalLoc">Kalpakkam</button>
         <button id = "uloc" onclick="ch(1);">From You (Beta)</button>
@@ -130,7 +132,8 @@
 
     <div class="modal-footer">
         <span class="ft" id="dis">DISCLAIMER</span> <span style="font-family: 'Oswald', sans-serif"> |</span>
-        <span class="ft" onclick="window.open('http://www.igcar.gov.in/covid-19/')">IGCAR SITE</span> <span style="font-family: 'Oswald', sans-serif"> |</span>
+        <span class="ft" onclick="window.open('http://www.igcar.gov.in/covid-19/')">IGCAR SITE</span> <span
+            style="font-family: 'Oswald', sans-serif"> |</span>
         <span class="ft" id="fed">FEEDBACK</span>
     </div>
 
@@ -147,7 +150,8 @@
                 <p>NO.</p>
 
                 <h3>Is This Information Authentic ?</h3>
-                <p>May not be. It is the complete responsibility of the user(s) to verify the veracity of the information from
+                <p>May not be. It is the complete responsibility of the user(s) to verify the veracity of the
+                    information from
                     the respective Authorities/Agencies.</p>
 
                 <h3>Source of Data ?</h3>
@@ -169,7 +173,7 @@
         </div>
 
     </div>
-    
+
 
     <div id="mpopupBox" class="mpopup">
         <!-- mPopup content -->
@@ -188,7 +192,7 @@
             <div class="modal-footer">
                 <h2><span class="bann">STAY HOME ! STAY SAFE !</span></h2>
             </div>
-            </div>
+        </div>
 
     </div>
 
@@ -202,4 +206,5 @@
     <script src="scriptsF/loccZ.js"></script>
 
 </body>
+
 </html>

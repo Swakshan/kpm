@@ -3,8 +3,19 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 overflow-x: hidden
 }
-
-
+.img-cont {
+    text-align: center;
+}
+.image-covid {
+    border-radius: 30px;
+    box-shadow: 5px 5px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 .Top {
     padding: 10px;
@@ -23,25 +34,7 @@ overflow-x: hidden
     padding: 30px;
     justify-content: center;
 }
-.Box{
-    box-shadow: 5px 5px #000040;
-    background-color: #cecfff;
-    padding: 10px; 
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    height: 50%;
-    width:80%;
-    color: white;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-self: center;
-    align-content: center;
-    justify-items: center;
-  }
+
 
 .titletext{
     margin-top: 10px;
@@ -53,27 +46,7 @@ overflow-x: hidden
     font-weight: bolder;
     transform: translateY(-030%);
 }
-.totaltext{
-    font-size: 30px;
-    font-weight: 500;
-}
-.totalnum{
-    font-size: 70px;
-    font-weight: bolder;
-}
-.TotalCases{
-    box-shadow: 3px 3px #888888;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
-    align-items: center;
-    background-image: linear-gradient(to right,#e30b0b,#ff2929);
-    padding: 30px;
-    margin: 40px;
-    float: left;
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-}
+
 .MainBox {
     right: -5%;
     padding: 10px; 
