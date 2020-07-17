@@ -106,20 +106,7 @@ overflow-x: hidden
     box-shadow: 5px 5px black;
     width: 180px;
     height: 120px;
-    background-image: linear-gradient(to right,#fc4a1a,#f7b733);
-    border-radius: 10px;
-    font-family: 'Oswald', sans-serif;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-    align-content: center;
-    float: left;
-}
-.SmallBox3{
-    box-shadow: 5px 5px black;
-    width: 180px;
-    height: 120px;
-    background-image: linear-gradient(to right,#f7b733,#ee0979);
+    background-image: linear-gradient(to right,#FF6F00,#CB6B22);
     border-radius: 10px;
     font-family: 'Oswald', sans-serif;
     align-items: center;
