@@ -20,6 +20,11 @@
     .MainBox {
         padding-left: 70px;
     }
+    #timz
+    {
+        transform: translateY(0px);
+        font-size: 12px;
+    }
 }
 
 /* @media screen and (max-width: 700px)
