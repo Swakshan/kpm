@@ -42,7 +42,7 @@ pbtn.onclick = function ()
                        
 
         }
-    if(i==0)
+    if(i<0)
     {
         document.slide.src = images[2];
         i=2;
