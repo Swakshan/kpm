@@ -133,4 +133,9 @@ overflow-x: hidden
 }
 
 
-=
+#Next,#Prev
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
