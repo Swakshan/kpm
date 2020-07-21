@@ -73,9 +73,18 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .msg-cont {
+        margin-top: 100px;
+        width: 90vw;
+    }
 }
 
-
+@media screen and (max-width: 600px) {
+    .msg-cont {
+        margin-top: 100px;
+        width: 90vw;
+    }
+}
 /* @media screen and (max-width: 700px)
 {
     .image-covid {
