@@ -17,6 +17,22 @@ overflow-x: hidden
     margin-bottom: 30px;
 }
 
+.msg-cont {
+    align-items: center;
+    background-color: wheat;
+    box-shadow: black 5px 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.msg-ab {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+
 .Top {
     padding: 10px;
     text-align: center;
