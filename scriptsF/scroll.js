@@ -2,9 +2,10 @@ var i =0;
 var images = [];
 var time = 6000;
 
-images[0] = "images/img1.jpg";
+images[0] = "images/img4.jpg";
 images[1] = "images/img2.jpg";
 images[2] = "images/img3.png";
+images[3] = "images/img3.png";
 
 var nbtn = document.getElementById("Next");
 var pbtn = document.getElementById("Prev");
